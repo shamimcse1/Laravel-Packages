@@ -1,0 +1,21 @@
+{
+    "name": "pondit/shamim",
+    "description": "E-commerce masterdata",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Shamim\\Masterdata\\" : "src/"
+        }
+
+    },
+    "extra" : {
+        "laravel" : {
+            "providers" : [
+                "Shamim\\Masterdata\\Providers\\MasterdataServiceProvider"
+            ]
+        }
+    }
+}

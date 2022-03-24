@@ -1,0 +1,21 @@
+{
+    "name": "pondit/pondit",
+    "description": "Pondit",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Pondit\\" : "src/"
+        }
+
+    },
+    "extra" : {
+        "laravel" : {
+            "providers" : [
+                "Pondit\\Providers\\MasterdataServiceProvider"
+            ]
+        }
+    }
+}
